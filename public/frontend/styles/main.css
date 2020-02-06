@@ -1,0 +1,525 @@
+body {
+  background-color: #ffff;
+  font-family: 'Assistant', sans-serif;
+  color: #07033D;
+}
+
+/* navbar */
+/* navbar */
+.navbar-light .navbar-brand img {
+  max-height: 80px;
+}
+
+.navbar-light .navbar-nav {
+  /* desktop */
+}
+
+@media (min-width: 992px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: #07033D;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .navbar-light .navbar-nav .nav-link.active::after {
+    border-bottom: 2px solid #5E83C2;
+    content: '';
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+  .navbar-light .navbar-nav .nav-link:hover::after {
+    content: '';
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-bottom: 2px solid #5E83C2;
+  }
+}
+
+.navbar-light .btn-navbar-right {
+  border-radius: 8px;
+}
+
+.navbar-light .btn-login {
+  background-color: #07033D;
+  color: #ffff;
+  font-size: 18px;
+}
+
+.navbar-light .btn-login:hover {
+  background-color: #17366B;
+  color: #EFF3FF;
+  font-size: 18px;
+}
+
+/* header */
+header {
+  padding: 180px 0 152px;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  header {
+    margin-top: -107px;
+  }
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header h1,
+header p {
+  color: #fff;
+}
+
+header .btn-get-started {
+  background-color: #FF7E00;
+  color: #fff;
+}
+
+header .btn-get-started:hover {
+  background-color: #F2953B;
+  color: #fff;
+}
+
+/* statistik */
+.section-stats {
+  position: relative;
+  margin-top: -55px;
+  background-color: #fff;
+}
+
+.section-stats .stats-detail {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 58px;
+  padding-right: 30px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+/* heading popular */
+.section-popular {
+  background-color: #051B40;
+  min-height: 504px;
+  margin-top: -72px;
+  margin-bottom: -200px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2,
+.section-popular .section-popular-heading p {
+  color: #fff;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/* content popular */
+.section-popular-content .section-popular-travel .card-travel {
+  background-color: #dddd;
+  min-height: 350px;
+  color: #ffff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .travel-country {
+  font-size: 18px;
+  color: #ffff;
+}
+
+.section-popular-content .travel-location {
+  font-size: 25px;
+  color: #ffff;
+}
+
+.section-popular-content .travel-button .btn-travel-details {
+  background-color: #FF7E00;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.section-popular-content .travel-button .btn-travel-details:hover {
+  background-color: #FF9B3A;
+  border-radius: 4px;
+  color: #fff;
+}
+
+/* section network */
+.section-network {
+  background-color: #EFF3FF;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+  background-size: cover;
+}
+
+.section-network h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-network p {
+  font-size: 18px;
+}
+
+.section-network img {
+  max-width: 100%;
+}
+
+/* section testimonial */
+.section-testimonial-heading {
+  height: 467px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(241, 238, 238, 0.09)), to(rgba(239, 243, 255, 0.96)));
+  background: linear-gradient(rgba(241, 238, 238, 0.09) 0%, rgba(239, 243, 255, 0.96) 100%);
+  padding-top: 40px;
+}
+
+.section-testimonial-heading h2 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 25px;
+  color: #051b40;
+}
+
+.section-testimonial-heading p {
+  font-size: 18px;
+}
+
+/* testimoni - content */
+.section-testimonial-content {
+  margin-top: -270px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 50px 20px 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 400px;
+  margin-bottom: -10px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content .testimonial {
+  font-weight: 200;
+  font-family: 'Assistant', serif;
+  font-size: 26px;
+  color: #5E83C2;
+  min-height: 140px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content .trip-to {
+  font-size: 22px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content hr {
+  margin-top: 40px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .btn-need-help {
+  background-color: #F5ECE3;
+  color: #B2AEA9;
+  font-size: 22px;
+}
+
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #B2AEA9;
+  color: #707070;
+}
+
+.section-testimonial-content .btn-get-started {
+  background-color: #FF7E00;
+  color: #fff;
+  font-size: 22px;
+}
+
+.section-testimonial-content .btn-get-started:hover {
+  background-color: #FF9B3A;
+  color: #fff;
+}
+
+/* footer */
+.section-footer a {
+  color: #07033D;
+}
+
+/* DETAILS PAGE*/
+/* details header */
+.section-details-header {
+  background-color: #EFF3FF;
+  min-height: 500px;
+}
+
+@media (min-width: 992px) {
+  .section-details-header {
+    margin-top: -110px;
+  }
+}
+
+/* details content */
+.section-details-content {
+  margin-top: -480px;
+  background-color: transparent;
+  min-height: 100vh;
+  /* gallery */
+  /* card-right */
+  /* CHECK OUT PAGE */
+}
+
+@media (min-width: 992px) {
+  .section-details-content {
+    margin-top: -350px;
+  }
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #07033D;
+}
+
+.section-details-content .card-details {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.section-details-content .card-details .members .member-img {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-content .card-details .members h3 {
+  font-size: 14px;
+  color: #07033D;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+  color: #07033D;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+  color: #07033D;
+  font-weight: bold;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #707070;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  flood-color: #707070;
+  font-size: 14px;
+}
+
+.section-details-content .card-details .features {
+  margin-top: 20px;
+}
+
+.section-details-content .card-details .features h3 {
+  color: #07033D;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.section-details-content .card-details .features p {
+  margin-bottom: 0px;
+}
+
+.section-details-content .card-details .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .card-details .features .features-img {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .galery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .galery .xzoom-container .xzoom {
+  margin-bottom: 10px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 100%;
+}
+
+.section-details-content .galery .xzoom-thumbs {
+  margin-bottom: 30px;
+}
+
+.section-details-content .galery .xzoom-thumbs .xactive {
+  border: #5E83C2 solid 4px;
+  border-radius: 10px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .card-right {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.section-details-content .card-right .trip-information th {
+  color: #07033D;
+  font-size: 18px;
+  font-weight: 300px;
+}
+
+.section-details-content .card-right .trip-information td {
+  font-size: 18px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.section-details-content .card-right .trip-information .text-blue {
+  color: #07033D;
+  font-weight: bold;
+}
+
+.section-details-content .card-right .trip-information .text-orange {
+  color: #FF7E00;
+  font-weight: bold;
+}
+
+.section-details-content .join-container {
+  margin-top: -17px;
+}
+
+.section-details-content .join-container .cancel-booking {
+  color: #B2AEA9;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.section-details-content .join-container .cancel-booking:hover {
+  color: #707070;
+}
+
+.section-details-content .btn-join-now {
+  border-radius: 0px 0px 8px 8px;
+  background-color: #FF7E00;
+  color: #fff;
+  font-size: 20px;
+}
+
+.section-details-content .btn-join-now:hover {
+  font-size: 20px;
+  background-color: #FF9B3A;
+  color: #fff;
+}
+
+.section-details-content .attendee table td {
+  color: #07033D;
+  font-size: 18px;
+}
+
+.section-details-content .attendee table th {
+  color: #07033D;
+}
+
+.section-details-content .add-member .btn-add-member {
+  background-color: #07033D;
+  color: #fff;
+}
+
+.section-details-content .add-member .btn-add-member:hover {
+  background-color: #17366B;
+  color: #fff;
+}
+
+.section-details-content .add-member .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-content .add-member .input-group-append .btn {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.section-success-page {
+  margin-top: -200px;
+  min-height: 90vh;
+}
+
+.section-success-page h1 {
+  color: #07033D;
+  font-weight: bold;
+}
+
+.section-success-page p {
+  font-size: 20px;
+  color: #07033D;
+}
+
+.section-success-page .btn-home {
+  background-color: #07033D;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.section-success-page .btn-home:hover {
+  background-color: #17366B;
+}
+
+.success-page {
+  min-height: 350px;
+}
+/*# sourceMappingURL=main.css.map */
